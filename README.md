@@ -12,7 +12,7 @@ The dataset is actually a kind of simulation, uploaded by Aman Sharma on Kaggle 
 ## Workflow
 **PostgreSQL:**
   - Raw Ingestion: Direct Data Load using NUMERIC type.
-  - Exploratory SQL Analysis: I used the aggregations SUM, COUNT and filters like WHERE, GROUP BY and HAVING SUM (profit) <0 to avoid bottlenecks.
+  - Exploratory SQL Analysis: I used the aggregations SUM, COUNT and filters like WHERE, GROUP BY and HAVING SUM (profit) <0 to identify unprofitable subcategories.
   - Lastly I created a view vw_superstore_clean to encapsulate the logic and serve as clean layer of data.
     
 **Power BI:**
@@ -24,8 +24,8 @@ The dataset is actually a kind of simulation, uploaded by Aman Sharma on Kaggle 
 ## Key Insights
 I found some interesting facts here:
 
-- Technology and Office Supplies have been showing healthy profit margins several months in a row, around 17% each.
-- Furniture revenue is almost the same as Office Supplies, but generates only $18,4K profit (2,49% profit margin).
+- Technology and Office Supplies have been showing healthy overall profit margins, around 17% each.
+- Furniture revenue is almost the same as Office Supplies, but generates only $18.4K profit (2.49% profit margin).
 - As Furniture generates only 2,49% profit, almost a third of the superstore's revenue isn't bringing any profit for shareholders.
 - From 17 subcategories, Tables, Bookcases and Supplies are losing money, because of over-aggressive discounts.
 - The loss from Tables sales wipes out the profit from thousands of sales on profitable subcategories like Envelopes and Art & Labels together.
