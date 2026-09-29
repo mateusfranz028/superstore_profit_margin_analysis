@@ -22,3 +22,10 @@ The dataset is actually a kind of simulation, uploaded by Aman Sharma on Kaggle 
   - Conditional formating to label subcategories in red.
 
 ## Key Insights
+- Furniture revenue is almost the same as Office Supplies, but generates only $18,4K profit (2,49% profit margin).
+- Tables, Bookcases and Supplies are losing money, mostly because of aggressive discounts.
+- Discounts over 20% kiil all the profit.
+
+  ´´´Discounts must be maximum 15%´´´
+
+  
